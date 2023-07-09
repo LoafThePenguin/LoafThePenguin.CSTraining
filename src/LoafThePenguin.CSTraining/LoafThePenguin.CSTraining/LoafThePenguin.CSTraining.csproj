@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <PackageReference Include="LoafThePenguin.CSTraining.Core" Version="0.0.1" />
+  </ItemGroup>
+
+</Project>
