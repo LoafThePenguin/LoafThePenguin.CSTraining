@@ -15,12 +15,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8DD6F5E7-AEAF-4E4A-A716-985C3E34001A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoafThePenguin.CSTraining", "src\LoafThePenguin.CSTraining\LoafThePenguin.CSTraining\LoafThePenguin.CSTraining.csproj", "{2F25E90D-F7FB-4C73-9FDD-027D09DA54E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoafThePenguin.CSTraining", "src\LoafThePenguin.CSTraining\LoafThePenguin.CSTraining\LoafThePenguin.CSTraining.csproj", "{2F25E90D-F7FB-4C73-9FDD-027D09DA54E8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{8273B329-B19E-4E29-8D41-9583F39D2A96}"
 	ProjectSection(SolutionItems) = preProject
 		.github\dependabot.yml = .github\dependabot.yml
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9A66BE4E-B503-40A2-AC6A-97FAB5A9C5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoafThePenguin.CSTraining.Tests", "tests\LoafThePenguin.CSTraining.Tests\LoafThePenguin.CSTraining.Tests.csproj", "{52D02261-9D3F-4AE7-A781-A62A320D7A58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,12 +36,17 @@ Global
 		{2F25E90D-F7FB-4C73-9FDD-027D09DA54E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F25E90D-F7FB-4C73-9FDD-027D09DA54E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F25E90D-F7FB-4C73-9FDD-027D09DA54E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52D02261-9D3F-4AE7-A781-A62A320D7A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D02261-9D3F-4AE7-A781-A62A320D7A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D02261-9D3F-4AE7-A781-A62A320D7A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D02261-9D3F-4AE7-A781-A62A320D7A58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2F25E90D-F7FB-4C73-9FDD-027D09DA54E8} = {8DD6F5E7-AEAF-4E4A-A716-985C3E34001A}
+		{52D02261-9D3F-4AE7-A781-A62A320D7A58} = {9A66BE4E-B503-40A2-AC6A-97FAB5A9C5A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64C1A5D7-0BDC-47EE-A8B3-5A2DE474FE44}
