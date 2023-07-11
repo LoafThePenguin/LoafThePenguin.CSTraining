@@ -9,6 +9,14 @@ public sealed class IsNumberSimple : IAlgorithm<int, bool>
 {
     public bool Run(int input)
     {
-        throw new NotImplementedException();
+        for (int i = 2; i <= input / 2; i++)
+        {
+            if (input % i == 0)
+            {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
