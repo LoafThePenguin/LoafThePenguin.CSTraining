@@ -1,17 +1,17 @@
-using LoafThePenguin.CSTraining.Conditions;
 using LoafThePenguin.CSTraining.Core.Cycles;
+using LoafThePenguin.CSTraining.Cycles;
 
 namespace LoafThePenguin.CSTraining.Tests;
 
 public sealed class IsNumberSimpleTests
 {
     private readonly IsNumberSimpleAlgorithm _isNumberSimpleAlgorithm;
-    private readonly IsNumberEven _isNumberEven;
+    private readonly IsNumberSimple _isNumberSimple;
 
     public IsNumberSimpleTests()
     {
         _isNumberSimpleAlgorithm = new IsNumberSimpleAlgorithm();
-        _isNumberEven = new IsNumberEven();
+        _isNumberSimple = new IsNumberSimple();
     }
 
     [Theory]
@@ -19,7 +19,7 @@ public sealed class IsNumberSimpleTests
     public void Is_Number_Simple(int number)
     {
         bool expected = _isNumberSimpleAlgorithm.Run(number);
-        bool actual = _isNumberEven.Run(number);
+        bool actual = _isNumberSimple.Run(number);
 
         Assert.Equal(expected, actual);
     }
