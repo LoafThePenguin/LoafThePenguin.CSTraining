@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <PackageReference Include="LoafThePenguin.CSTraining.Core" Version="0.0.7" />
+    <PackageReference Include="LoafThePenguin.CSTraining.Core" Version="0.0.10" />
   </ItemGroup>
 
 </Project>

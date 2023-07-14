@@ -1,4 +1,4 @@
-using LoafThePenguin.CSTraining.Core.Cycles;
+using LoafThePenguin.CSTraining.Core.TrustedAlgorithms.Cycles;
 using LoafThePenguin.CSTraining.Cycles;
 
 namespace LoafThePenguin.CSTraining.Tests;
