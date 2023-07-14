@@ -1,5 +1,5 @@
-using LoafThePenguin.CSTraining.Conditions;
-using LoafThePenguin.CSTraining.Core.TrustedAlgorithms.Condition;
+using LoafThePenguin.CSTraining.Basic;
+using LoafThePenguin.CSTraining.Core.Basic.Condition;
 
 namespace LoafThePenguin.CSTraining.Tests;
 

@@ -1,6 +1,6 @@
 using LoafThePenguin.CSTraining.Core;
 
-namespace LoafThePenguin.CSTraining.Cycles;
+namespace LoafThePenguin.CSTraining.Basic;
 
 /*
  * Написать алгоритм, который вычислит сумму всех цифр числа.

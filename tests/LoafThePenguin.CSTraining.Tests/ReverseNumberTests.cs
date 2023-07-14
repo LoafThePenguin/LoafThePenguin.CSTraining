@@ -1,5 +1,5 @@
-﻿using LoafThePenguin.CSTraining.Core.TrustedAlgorithms.Cycles;
-using LoafThePenguin.CSTraining.Cycles;
+using LoafThePenguin.CSTraining.Basic;
+using LoafThePenguin.CSTraining.Core.Basic.Cycles;
 
 namespace LoafThePenguin.CSTraining.Tests;
 

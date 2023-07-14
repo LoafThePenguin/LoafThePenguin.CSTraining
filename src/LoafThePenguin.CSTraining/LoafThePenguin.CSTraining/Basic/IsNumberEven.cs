@@ -1,6 +1,6 @@
 using LoafThePenguin.CSTraining.Core;
 
-namespace LoafThePenguin.CSTraining.Conditions;
+namespace LoafThePenguin.CSTraining.Basic;
 
 /*
  * Определить является ли число чётным.
