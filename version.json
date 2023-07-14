@@ -1,6 +1,6 @@
 {
   "$schema": "https://raw.githubusercontent.com/dotnet/Nerdbank.GitVersioning/master/src/NerdBank.GitVersioning/version.schema.json",
-  "version": "1.0",
+  "version": "0.1",
   "assemblyVersion": {
     "precision": "revision"
   },
@@ -11,7 +11,7 @@
   ],
   "pathFilters": [
     ":!/version.json",
-    ":!/LoafThePenguin.Helpers.sln",
+    ":!/LoafThePenguin.CSTraining.sln",
     ":!/CODE_OF_CONDUCT.md",
     ":!/README.md",
     ":!/LICENSE",
