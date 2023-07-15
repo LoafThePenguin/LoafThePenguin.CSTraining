@@ -1,5 +1,16 @@
 name: SonarCheck
 on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'docs/**'
+      - '.github/**'
+      - '*.md'
+      - '.gitignore'
+      - 'version.json'
+      - 'LICENSE'
+      - 'console'   
   pull_request:
     branches:
       - main
