@@ -1,9 +1,18 @@
 # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+registries:
+  nuget-guthub: 
+    type: nuget-feed
+    url: https://nuget.pkg.github.com/LoafThePenguin/index.json
+    username: LoafThePenguin
+    password: ${{ secrets.NUGET_REPOSITORY_TOKEN }}
+
 updates:
   - package-ecosystem: "nuget"
     directory: "/nuget.config"
+    registries:
+      - nuget-guthub
     schedule:
       interval: "daily"
     rebase-strategy: "disabled"
