@@ -1,7 +1,7 @@
 using LoafThePenguin.CSTraining.Basic;
 using LoafThePenguin.CSTraining.Core.Basic.Cycles;
 
-namespace LoafThePenguin.CSTraining.Tests;
+namespace LoafThePenguin.CSTraining.Tests.Basic;
 
 public sealed class ReverseNumberTests
 {
