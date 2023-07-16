@@ -21,6 +21,7 @@ public sealed class DigitsSumTests
     [InlineData(1)]
     [InlineData(538723)]
     [InlineData(911231)]
+    [InlineData(-23231)]
     public void Digits_Sum(int number)
     {
         int expected = _algorithm.Run(number);
