@@ -10,6 +10,15 @@ public sealed class ReverseNumber : IAlgorithm<int, int>
 {
     public int Run(int input)
     {
-        throw new NotImplementedException();
+        int reversed = 0;
+   
+        do
+        {
+            int num = input % 10;
+            reversed = (reversed * 10) + num;
+            input = (input - num) / 10;
+            
+        } while(input>0);
+        return reversed;
     }
 }
