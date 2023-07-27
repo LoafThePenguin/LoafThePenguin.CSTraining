@@ -11,6 +11,10 @@ public class PersonalizedMessage : IAlgorithm<string, string, string>
 {
     public string Run(string name, string owner)
     {
-        throw new NotImplementedException();
+        if (name == owner)
+        {
+            return "Hello boss";
+        }
+        return "Hello guest";
     }
 }
