@@ -9,12 +9,11 @@ public sealed class GetFirstCharFromString : IAlgorithm<string, char?>
 {
     public char? Run(string input)
     {
-        if(input.Length < 0)
+        if(input.Length == 0)
         {
             return null;
         }
-
-        // Писать код тут.
-        throw new NotImplementedException();
+        char n = input[0];
+        return n;
     }
 }
