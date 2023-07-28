@@ -7,14 +7,14 @@ namespace LoafThePenguin.CSTraining.Basic;
  */
 public sealed class GetCharFromString : IAlgorithm<string, int, char?>
 {
-    public char? Run(string input1, int input2)
+    public char? Run(string str, int index)
     {
-        if(input1.Length < input2)
+        if(str.Length < index)
         {
             return null;
         }
-
-        // Писать код тут.
-        throw new NotImplementedException();
+        char n = str[index];
+        return n;
+      
     }
 }
