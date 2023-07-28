@@ -5,7 +5,7 @@ namespace LoafThePenguin.CSTraining.Basic;
 /*
  * Найти букву в строке по индексу.
  */
-public sealed class GetCharFromString : IAlgorithm<string, int, char?>
+public sealed class GetCharByIndexFromString : IAlgorithm<string, int, char?>
 {
     public char? Run(string str, int index)
     {
