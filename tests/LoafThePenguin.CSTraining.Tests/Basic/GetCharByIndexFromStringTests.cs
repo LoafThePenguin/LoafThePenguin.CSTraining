@@ -3,15 +3,15 @@ using LoafThePenguin.CSTraining.Core.Tasks.Basic;
 
 namespace LoafThePenguin.CSTraining.Tests.Basic;
 
-public sealed class GetCharFromStringTests
+public sealed class GetCharByIndexFromStringTests
 {
-    private readonly GetCharFromStringAlgorithm _algorithm;
-    private readonly GetCharFromString _getCharFromString;
+    private readonly GetCharFromStringByIndexAlgorithm _algorithm;
+    private readonly GetCharByIndexFromString _getCharFromString;
 
-    public GetCharFromStringTests()
+    public GetCharByIndexFromStringTests()
     {
-        _algorithm = new GetCharFromStringAlgorithm();
-        _getCharFromString = new GetCharFromString();
+        _algorithm = new GetCharFromStringByIndexAlgorithm();
+        _getCharFromString = new GetCharByIndexFromString();
     }
 
     [Theory]
