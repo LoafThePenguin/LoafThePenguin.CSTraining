@@ -1,9 +1,9 @@
-﻿using LoafThePenguin.CSTraining.Core;
+using LoafThePenguin.CSTraining.Core;
 
 namespace LoafThePenguin.CSTraining.Basic;
 
 /*
- * Найти букву в строке по порядковому номеру.
+ * Найти букву в строке по порядковому номеру.123456789 и так далее
  */
 public sealed class GetCharBySequenceFromString : IAlgorithm<string, int, char?>
 {
@@ -13,8 +13,8 @@ public sealed class GetCharBySequenceFromString : IAlgorithm<string, int, char?>
         {
             return null;
         }
-
-        // Писать код тут.
-        throw new NotImplementedException();
+        int index= seqNum - 1;
+        char n = str[index];
+        return n;
     }
 }
