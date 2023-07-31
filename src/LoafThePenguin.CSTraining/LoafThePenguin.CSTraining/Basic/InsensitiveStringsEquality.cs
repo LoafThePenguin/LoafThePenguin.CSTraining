@@ -10,6 +10,7 @@ public sealed class InsensitiveStringsEquality : IAlgorithm<string, string, bool
 {
     public bool Run(string input1, string input2)
     {
-        throw new NotImplementedException();
+        int comparsion = string.Compare(input1, input2, ignoreCase: true);
+        return comparsion == 0;
     }
 }
