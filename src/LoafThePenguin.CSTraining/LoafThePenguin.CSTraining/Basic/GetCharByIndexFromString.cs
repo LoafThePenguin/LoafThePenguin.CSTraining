@@ -9,7 +9,7 @@ public sealed class GetCharByIndexFromString : IAlgorithm<string, int, char?>
 {
     public char? Run(string str, int index)
     {
-        if(str.Length < index)
+        if(str.Length <= index)
         {
             return null;
         }
